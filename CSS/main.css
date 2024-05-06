@@ -2,19 +2,19 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 header{
     background-color: #A61B34;
     text-align: center;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
-
 
 h1, h2 {
     font-family: "Ruslan Display", sans-serif;
+    text-align: center;
 }
   
 header h1 {
@@ -24,24 +24,49 @@ header h1 {
 header img{
     width: 300px;
     border: 20px solid white;
-    border-radius: 85%;
+    border-radius: 100%;
 }
 
 main {
     max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 main img{
-    max-width: 50%;
+    max-width: 300;
+    max-height: 500px;
+    margin-bottom: 0;
+}
+
+p{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+p.caption{
+    color: #999999;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
 }
 
 h2 {
     font-size: 35px;
     color: #171C73;
     margin: 40px 0 10px;
+}
+
+ol{
+    margin-left:250px;
+}
+
+ul{
+    margin-left: 300px;
 }
 
 a {
@@ -64,9 +89,3 @@ footer p {
 }
 
 
-p.caption{
-    color: #999999;
-    font-style: italic;
-    font-size: 15px;
-    margin-top: 0;
-}
